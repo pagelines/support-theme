@@ -1,3 +1,3 @@
-## Groundwork Core
+## PageLines Support Theme
 
-Groundwork Core gives designers a great starting point for building sites with PageLines DMS. 
+A custom theme designed by the team at PageLines.
