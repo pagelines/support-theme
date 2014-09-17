@@ -11,7 +11,7 @@ function custom_front_page($wp_query) {
     if(!is_admin() && $wp_query->get("page_id") == get_option("page_on_front")) {
 
         // Set custom parameters (values based on Isaacs question).
-        $wp_query->set("post_type", "album");
+        $wp_query->set("post_type", "tabkit");
         $wp_query->set("posts_per_page", -1);
 
         // WP_Query shouldn't actually fetch the page in our case.
