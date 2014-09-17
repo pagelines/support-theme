@@ -10,7 +10,7 @@ function custom_front_page($wp_query) {
     // Compare queried page ID to front page ID.
     if(!is_admin() && $wp_query->get("page_id") == get_option("page_on_front")) {
 
-        // Set custom parameters (values based on Isaacs question).
+        // Set custom parameters
         $wp_query->set("post_type", "tabkit");
         $wp_query->set("posts_per_page", -1);
 
